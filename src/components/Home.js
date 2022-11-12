@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 
 function Home(){
+    const [hey, Sethey] = useState()
     return(<div>Hello</div>)
 }
 
